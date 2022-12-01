@@ -1,2 +1,2 @@
 #!/bin/bash
-result=$(find ~/dir1)
+ls -la
