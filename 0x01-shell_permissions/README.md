@@ -15,4 +15,6 @@
 13. #chgrp school hello :- script that changes the group owner to school for the file hello: The file hello will be in the working directory
 14. #chown vincent:staff * :- Write a script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
 15. #chown -h vincent:staff _hello :- Write a script that changes the owner and the group owner of _hello to vincent and staff respectively: The file _hello is in the working directory
-The file _hello is a symbolic link 
+The file _hello is a symbolic link
+16. #chown -R --from=guillaume betty hello :- Write a script that changes the owner of the file hello to betty only if it is owned by the user guillaume. The file hello will be in the working directory
+17. #telnet towel.blinkenlights.nl :- Write a script that will play the StarWars IV episode in the terminal. 
