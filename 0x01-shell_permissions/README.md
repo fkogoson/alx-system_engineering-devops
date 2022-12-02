@@ -6,4 +6,5 @@
 4. #touch hello :- script that creates an empty file called hello
 5. #chmod u+x hello :- script that adds execute permission to the owner of the file hello
 6. #chmod 754 hello :- Write a script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello
-7. #chmod ugo+x :- script that adds execution permission to the owner, the group owner and the other users, to the file hello 
+7. #chmod ugo+x :- script that adds execution permission to the owner, the group owner and the other users, to the file hello
+8. #chmod 007 heloo :- script that sets the permission to the file hello as follows: Owner: no permission at all, Group: no permission at all, Other users: all the permissions 
